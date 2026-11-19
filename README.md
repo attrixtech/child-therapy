@@ -1,4 +1,4 @@
-# Aura SpecialCare - Special Child Care & Autism Academy Management System
+# thrumble.child-therapy - Special Child Care & Autism Academy Management System
 
 <p align="left">
   <img src="https://img.shields.io/badge/Laravel-11%20%2F%2012-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
@@ -12,11 +12,11 @@
 
 ## 📖 About The Project
 
-**Aura SpecialCare** is an open-source, multi-disciplinary school and clinical management ecosystem purpose-built for **Special Education Needs (SEN) schools, Autism development academies, pediatric therapy clinics, and therapeutic day-care centers**.
+**thrumble.child-therapy** is an open-source, multi-disciplinary school and clinical management ecosystem purpose-built for **Special Education Needs (SEN) schools, Autism development academies, pediatric therapy clinics, and therapeutic day-care centers**.
 
-Unlike generic school management software that only tracks standard grades and attendance, **Aura SpecialCare** is engineered around the clinical and neurodevelopmental lifecycle of children with Autism Spectrum Disorder (ASD), Speech & Language Delays, ADHD, Sensory Processing Disorders, and related developmental conditions.
+Unlike generic school management software that only tracks standard grades and attendance, **thrumble.child-therapy** is engineered around the clinical and neurodevelopmental lifecycle of children with Autism Spectrum Disorder (ASD), Speech & Language Delays, ADHD, Sensory Processing Disorders, and related developmental conditions.
 
-### Why Aura SpecialCare?
+### Why thrumble.child-therapy?
 * **Clinical Accuracy:** Bridges the gap between medical intake, standardized diagnostic screening (CARS-2 & ISAA), and day-to-day individualized education planning (IEP).
 * **Neurodivergent-First Accommodations:** Tracks unique sensory profiles, tactile/auditory triggers, calming mechanisms (weighted vests, quiet tents), dietary texture tolerances, and sensory recovery days.
 * **Complete Transparency for Parents:** Dedicated, isolated Parent Progress Portal showing real-time developmental mastery, daily routine logs (meals, naps, toileting, mood), and therapist session notes.
@@ -59,9 +59,9 @@ Unlike generic school management software that only tracks standard grades and a
 
 | Role | Email | Password | Access / View |
 | :--- | :--- | :--- | :--- |
-| **Administrator** | `admin@specialcare.com` | `password` | Full school administration, admissions, enquiries, staff management |
-| **Therapist** | `priya@specialcare.com` | `password` | Clinical diagnostics, CARS/ISAA assessments, IEP goals, session logs |
-| **Parent** | `parent@specialcare.com` | `password` | Dedicated Parent Progress Portal (strictly for child *Aarav Gupta*) |
+| **Administrator** | `admin@thrumble.child-therapy` | `password` | Full school administration, admissions, enquiries, staff management |
+| **Therapist** | `priya@thrumble.child-therapy` | `password` | Clinical diagnostics, CARS/ISAA assessments, IEP goals, session logs |
+| **Parent** | `parent@thrumble.child-therapy` | `password` | Dedicated Parent Progress Portal (strictly for child *Aarav Gupta*) |
 
 ---
 
@@ -74,8 +74,8 @@ Unlike generic school management software that only tracks standard grades and a
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/webotapp-academy/special-child-therapy-center.git
-cd special-child-therapy-center
+git clone <repository-url>
+cd child-therapy
 ```
 
 ### 2. Install Dependencies
@@ -128,6 +128,12 @@ Open **`http://127.0.0.1:8000`** (or access via XAMPP at `http://localhost/speci
 - **Database:** MySQL
 - **Frontend:** Tailwind CSS, Alpine.js, Plus Jakarta Sans Typography
 - **Architecture:** Clean MVC with Role-Based Access Control (RBAC)
+
+---
+
+## 🤝 Credits
+- **Development:** [Attrix Technologies](https://www.attrixtech.com)
+- **Marketing:** [Infusionn Pvt. Ltd.](https://www.infusionn.in)
 
 ---
 

@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         // 1. Create Staff & Admin Users
         $admin = User::create([
             'name' => 'Admin Director',
-            'email' => 'admin@specialcare.com',
+            'email' => 'admin@thrumble.child-therapy',
             'password' => Hash::make('password'),
             'role' => 'admin',
             'phone' => '+91 98765 43210',
@@ -30,7 +30,7 @@ class DatabaseSeeder extends Seeder
 
         $psychologist = User::create([
             'name' => 'Dr. Priya Sharma',
-            'email' => 'priya@specialcare.com',
+            'email' => 'priya@thrumble.child-therapy',
             'password' => Hash::make('password'),
             'role' => 'therapist',
             'phone' => '+91 98765 11111',
@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
 
         $educator = User::create([
             'name' => 'Ananya Roy',
-            'email' => 'ananya@specialcare.com',
+            'email' => 'ananya@thrumble.child-therapy',
             'password' => Hash::make('password'),
             'role' => 'educator',
             'phone' => '+91 98765 22222',
@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
 
         $speechTherapist = User::create([
             'name' => 'Vikram Sen',
-            'email' => 'vikram@specialcare.com',
+            'email' => 'vikram@thrumble.child-therapy',
             'password' => Hash::make('password'),
             'role' => 'therapist',
             'phone' => '+91 98765 33333',
@@ -57,7 +57,7 @@ class DatabaseSeeder extends Seeder
 
         $otTherapist = User::create([
             'name' => 'Neha Patel',
-            'email' => 'neha@specialcare.com',
+            'email' => 'neha@thrumble.child-therapy',
             'password' => Hash::make('password'),
             'role' => 'therapist',
             'phone' => '+91 98765 44444',
@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
         // Parent User
         $parent = User::create([
             'name' => 'Rajesh Gupta',
-            'email' => 'parent@specialcare.com',
+            'email' => 'parent@thrumble.child-therapy',
             'password' => Hash::make('password'),
             'role' => 'parent',
             'phone' => '+91 98111 22334',
@@ -84,7 +84,7 @@ class DatabaseSeeder extends Seeder
             'parent_name' => 'Rajesh & Pooja Gupta',
             'relation' => 'Father',
             'phone' => '+91 98111 22334',
-            'email' => 'parent@specialcare.com',
+            'email' => 'parent@thrumble.child-therapy',
             'address' => 'Flat 402, Sunshine Heights, Mumbai',
             'referred_by' => 'Dr. Kulkarni (Pediatrician)',
             'primary_concerns' => ['Speech Delay', 'No Eye Contact', 'Repetitive Hand Flapping', 'Sensory Meltdowns in Malls'],
@@ -216,7 +216,7 @@ class DatabaseSeeder extends Seeder
             'guardian_name' => 'Rajesh Gupta',
             'guardian_relation' => 'Father',
             'guardian_phone' => '+91 98111 22334',
-            'guardian_email' => 'parent@specialcare.com',
+            'guardian_email' => 'parent@thrumble.child-therapy',
             'address' => 'Flat 402, Sunshine Heights, Andheri West, Mumbai',
             'emergency_contact_phone' => '+91 98111 22335 (Mother: Pooja)',
             'status' => 'active',

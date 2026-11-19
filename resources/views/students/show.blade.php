@@ -995,7 +995,7 @@
                             <i class="fa-solid fa-puzzle-piece"></i>
                         </div>
                         <div>
-                            <h3 class="font-black text-slate-900 text-base">Aura SpecialCare Academy</h3>
+                            <h3 class="font-black text-slate-900 text-base">thrumble.child-therapy</h3>
                             <p class="text-2xs text-slate-500">Center for Autism & Child Neurodevelopment</p>
                         </div>
                     </div>

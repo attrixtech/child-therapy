@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Enroll Student & Profile - SpecialCare')
+@section('title', 'Enroll Student & Profile - thrumble.child-therapy')
 
 @section('content')
 <div class="max-w-4xl mx-auto space-y-6">
@@ -247,7 +247,7 @@
                 </div>
                 <div>
                     <label class="block text-xs font-bold text-slate-700 mb-1">Parent Email (For Portal Access)</label>
-                    <input type="email" name="guardian_email" value="{{ old('guardian_email', $enquiry->email ?? 'parent@specialcare.com') }}"
+                    <input type="email" name="guardian_email" value="{{ old('guardian_email', $enquiry->email ?? 'parent@thrumble.child-therapy') }}"
                            class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-hidden">
                     <span class="text-2xs text-slate-400 mt-0.5 block">Auto-creates Parent Portal login. Default password: parent123</span>
                 </div>

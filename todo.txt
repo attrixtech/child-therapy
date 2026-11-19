@@ -16,9 +16,9 @@
 
 ## 2. Authentication & Role-Based Access Control (RBAC) [COMPLETED]
 - Multi-role user authentication with strict route protection:
-  - **1. Admin Login:** Full administrative control (`admin@specialcare.com`)
-  - **2. Therapist Login:** Diagnostics, CARS assessment, IEP & session notes (`priya@specialcare.com`)
-  - **3. Parent Login:** Dedicated access to Parent Progress Portal (`parent@specialcare.com`)
+  - **1. Admin Login:** Full administrative control (`admin@thrumble.child-therapy`)
+  - **2. Therapist Login:** Diagnostics, CARS assessment, IEP & session notes (`priya@thrumble.child-therapy`)
+  - **3. Parent Login:** Dedicated access to Parent Progress Portal (`parent@thrumble.child-therapy`)
 - Protected application routes: All patient, clinical, and student data requires active authentication.
 - Single-click quick role switchers on the login page for rapid testing and demonstrations.
 - Dynamic navigation bar: shows only relevant menus per authenticated role.

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Aura SpecialCare - Autism & Special Child School')</title>
+    <title>@yield('title', 'thrumble.child-therapy - Autism & Special Child School')</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts: Plus Jakarta Sans -->
@@ -53,7 +53,7 @@
                         </div>
                         <div class="whitespace-nowrap">
                             <div class="flex items-center gap-1.5 leading-none">
-                                <span class="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight">Aura SpecialCare</span>
+                                <span class="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight">thrumble.child-therapy</span>
                                 <span class="bg-slate-100 text-slate-600 text-[10px] font-bold px-1.5 py-0.5 rounded">v1.0</span>
                             </div>
                             <span class="text-[11px] text-slate-400 font-semibold tracking-normal block mt-0.5">Autism & Special Child Care</span>
@@ -209,13 +209,15 @@
     <!-- Footer -->
     <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 print:hidden">
         <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div class="flex items-center space-x-2">
-                <span class="font-bold text-slate-700">Aura SpecialCare</span>
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+                <span class="font-bold text-slate-700">thrumble.child-therapy</span>
                 <span>•</span>
                 <span>Specialized Autism & SEN Education Platform</span>
             </div>
-            <div class="flex items-center space-x-4 text-slate-400">
-                <span>Database: <strong class="text-slate-600">special</strong> (MySQL Local XAMPP)</span>
+            <div class="flex flex-wrap items-center justify-center sm:justify-end gap-x-3 gap-y-1 text-slate-400">
+                <span>Developed by <a href="https://www.attrixtech.com" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-600 hover:text-indigo-600 hover:underline">Attrix Technologies</a></span>
+                <span>•</span>
+                <span>Marketing by <a href="https://www.infusionn.in" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-600 hover:text-indigo-600 hover:underline">Infusionn Pvt. Ltd.</a></span>
                 <span>•</span>
                 @guest
                     <a href="{{ route('login') }}" class="text-blue-600 font-semibold hover:underline">Sign In</a>

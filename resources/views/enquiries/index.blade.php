@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Enquiries & Lead Screening - SpecialCare')
+@section('title', 'Enquiries & Lead Screening - thrumble.child-therapy')
 
 @section('content')
 <div class="space-y-6">

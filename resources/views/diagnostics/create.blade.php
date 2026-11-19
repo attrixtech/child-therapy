@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Conduct Diagnostic Assessment - SpecialCare')
+@section('title', 'Conduct Diagnostic Assessment - thrumble.child-therapy')
 
 @section('content')
 <div class="max-w-4xl mx-auto space-y-6">

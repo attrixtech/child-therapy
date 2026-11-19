@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In Required - Aura SpecialCare School</title>
+    <title>Sign In Required - thrumble.child-therapy</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +32,7 @@
                 <path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
         </div>
-        <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">Aura SpecialCare</h1>
+        <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">thrumble.child-therapy</h1>
         <p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-wider">Autism & Special Child Care Management System</p>
         
         <!-- Privacy Notice -->
@@ -113,7 +113,7 @@
 
                 <div>
                     <label for="email" class="block text-xs font-bold text-slate-700 mb-1">Email Address</label>
-                    <input id="email" type="email" name="email" required value="{{ old('email') }}" placeholder="admin@specialcare.com"
+                    <input id="email" type="email" name="email" required value="{{ old('email') }}" placeholder="admin@thrumble.child-therapy"
                            class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-xs sm:text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-hidden @error('email') border-rose-500 @enderror">
                     @error('email')
                         <p class="text-xs text-rose-600 mt-1 font-medium">{{ $message }}</p>
@@ -140,6 +140,14 @@
             </form>
 
         </div>
+
+        <footer class="mt-6 text-center text-xs text-slate-500 space-y-1">
+            <div>
+                Developed by <a href="https://www.attrixtech.com" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-700 hover:text-indigo-600 hover:underline">Attrix Technologies</a>
+                <span>•</span>
+                Marketing by <a href="https://www.infusionn.in" target="_blank" rel="noopener noreferrer" class="font-semibold text-slate-700 hover:text-indigo-600 hover:underline">Infusionn Pvt. Ltd.</a>
+            </div>
+        </footer>
 
     </div>
 

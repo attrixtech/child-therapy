@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Special Child Care Management - Dashboard')
+@section('title', 'Dashboard - thrumble.child-therapy')
 
 @section('content')
 <div class="space-y-6">

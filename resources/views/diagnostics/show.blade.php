@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', "Diagnostic Report {$diagnostic->assessment_no} - SpecialCare")
+@section('title', "Diagnostic Report {$diagnostic->assessment_no} - thrumble.child-therapy")
 
 @section('content')
 <div class="max-w-4xl mx-auto space-y-6">
@@ -60,7 +60,7 @@
                     <span class="w-7 h-7 rounded-lg bg-teal-600 text-white font-extrabold flex items-center justify-center text-xs print:border print:border-slate-800">
                         SC
                     </span>
-                    <h2 class="text-xl sm:text-2xl font-black text-slate-900 uppercase tracking-tight">Aura SpecialCare Academy</h2>
+                    <h2 class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">thrumble.child-therapy</h2>
                 </div>
                 <p class="text-xs font-bold text-teal-800 uppercase tracking-wider">Child Development & Autism Clinical Care Center</p>
                 <p class="text-[11px] text-slate-500 mt-0.5">Specialized Neurodevelopmental Screening, Assessment & Intervention Services</p>
@@ -247,7 +247,7 @@
             </div>
 
             <div class="text-center text-[10px] text-slate-400 pt-2 border-t border-slate-100">
-                This document is a certified clinical assessment record issued by Aura SpecialCare Academy. Confidential & Protected.
+                This document is a certified clinical assessment record issued by thrumble.child-therapy. Confidential & Protected.
             </div>
         </div>
 
